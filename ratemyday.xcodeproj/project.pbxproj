@@ -16,6 +16,8 @@
 		9212BB61292C51B400279E64 /* ratemydayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BB60292C51B400279E64 /* ratemydayTests.swift */; };
 		9212BB6B292C51B400279E64 /* ratemydayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BB6A292C51B400279E64 /* ratemydayUITests.swift */; };
 		9212BB6D292C51B400279E64 /* ratemydayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BB6C292C51B400279E64 /* ratemydayUITestsLaunchTests.swift */; };
+		9212BB7A292C948200279E64 /* ParamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BB79292C948200279E64 /* ParamView.swift */; };
+		9212BB7E292C994E00279E64 /* ParamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9212BB7D292C994E00279E64 /* ParamModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		9212BB66292C51B400279E64 /* ratemydayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ratemydayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9212BB6A292C51B400279E64 /* ratemydayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratemydayUITests.swift; sourceTree = "<group>"; };
 		9212BB6C292C51B400279E64 /* ratemydayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ratemydayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		9212BB79292C948200279E64 /* ParamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamView.swift; sourceTree = "<group>"; };
+		9212BB7D292C994E00279E64 /* ParamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParamModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,7 @@
 		9212BB49292C51B200279E64 /* ratemyday */ = {
 			isa = PBXGroup;
 			children = (
+				9212BB7B292C991900279E64 /* View */,
 				9212BB4A292C51B200279E64 /* ratemydayApp.swift */,
 				9212BB4C292C51B200279E64 /* ContentView.swift */,
 				9212BB4E292C51B300279E64 /* Assets.xcassets */,
@@ -131,6 +136,23 @@
 				9212BB6C292C51B400279E64 /* ratemydayUITestsLaunchTests.swift */,
 			);
 			path = ratemydayUITests;
+			sourceTree = "<group>";
+		};
+		9212BB7B292C991900279E64 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9212BB7C292C993A00279E64 /* Param  */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9212BB7C292C993A00279E64 /* Param  */ = {
+			isa = PBXGroup;
+			children = (
+				9212BB79292C948200279E64 /* ParamView.swift */,
+				9212BB7D292C994E00279E64 /* ParamModel.swift */,
+			);
+			path = "Param ";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,6 +288,8 @@
 				9212BB54292C51B300279E64 /* Persistence.swift in Sources */,
 				9212BB4D292C51B200279E64 /* ContentView.swift in Sources */,
 				9212BB57292C51B300279E64 /* ratemyday.xcdatamodeld in Sources */,
+				9212BB7E292C994E00279E64 /* ParamModel.swift in Sources */,
+				9212BB7A292C948200279E64 /* ParamView.swift in Sources */,
 				9212BB4B292C51B200279E64 /* ratemydayApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
